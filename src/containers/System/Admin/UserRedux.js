@@ -202,7 +202,7 @@ class UserRedux extends Component {
 
     this.setState({
       email: user.email,
-      password: "HARDCODE",
+      password: "",
       firstName: user.firstName,
       lastName: user.lastName,
       phoneNumber: user.phonenumber,
